@@ -2,7 +2,7 @@
    font-family: 'MPLUS1p';
    font-style: normal;
    font-weight: 400;
-
+	font-display: swap;
    src: url('./assets/fonts/M_PLUS_1p/MPLUS1p-Regular.ttf');
 }
 
@@ -10,6 +10,7 @@
    font-family: 'MPLUS1p';
    font-style: normal;
    font-weight: 500;
+	font-display: swap;
    src: url('./assets/fonts/M_PLUS_1p/MPLUS1p-Medium.ttf');
 }
 
@@ -17,6 +18,7 @@
    font-family: 'MPLUS1p';
    font-style: normal;
    font-weight: 800;
+	font-display: swap;
    src: url('./assets/fonts/M_PLUS_1p/MPLUS1p-ExtraBold.ttf');
 }
 
@@ -24,6 +26,7 @@
    font-family: 'MPLUS1p';
    font-style: normal;
    font-weight: 900;
+	font-display: swap;
    src: url('./assets/fonts/M_PLUS_1p/MPLUS1p-Black.ttf');
 }
 
@@ -31,5 +34,6 @@
    font-family: 'NoticiaText';
    font-style: normal;
    font-weight: 900;
+	font-display: swap;
    src: url('./assets/fonts/Noticia_Text/NoticiaText-Italic.ttf');
 }
