@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+// 1. Base
+@import './core/base';
+
+// 2. Fonts
+@import './fonts/fonts';
+
+// 3. Layout-related sections
+@import './layout/header',
+'./layout/intro',
+'./layout/features',
+'./layout/newsletter',
+'./layout/footer';
+
+// 4. Media
+@import './media/media',
+'./media/header-media',
+'./media/intro-media',
+'./media/newsletter-media',
+'./media/features-media',
+'./media/footer-media'
+;

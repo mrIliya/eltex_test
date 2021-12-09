@@ -1,0 +1,126 @@
+.intro {
+   padding-top: 108px;
+   padding-bottom: 135px;
+   position: relative;
+	max-width: 1440px;
+	margin: 0 auto;
+	width: 100%;
+	z-index: 10;
+	
+   &__info {
+      max-width: 460px;
+      width: 100%;
+      margin-right: 128px;
+      padding-top: 72px;
+   }
+
+   &__name {
+      margin-top: 0;
+      margin-bottom: 18px;
+      font-weight: 800;
+      font-size: 12.6px;
+      line-height: 26px;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: #F61067;
+   }
+
+   &__title {
+      margin-bottom: 19px;
+      font-weight: 500;
+      font-size: 45px;
+      line-height: 67px;
+      color: #30233D;
+   }
+
+   &__subtitle {
+      margin-top: 0;
+      margin-bottom: 36px;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 29px;
+      color: #30233D;
+   }
+
+   &__text {
+      margin-top: 0;
+      margin-bottom: 54px;
+      font-size: 18px;
+      line-height: 29px;
+      color: #776C82;
+   }
+
+   &__btn {
+      font-weight: 500;
+      font-size: 13.5px;
+      line-height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #FCFCFC;
+      width: 197px;
+      height: 45px;
+      background: #F61067;
+      border-radius: 36px;
+      border: transparent;
+      outline: transparent;
+		transition: all linear .3s;
+		&:hover{
+			filter: sepia(30%);
+		}
+   }
+
+   &__image {
+      position: absolute;
+      top: 144px;
+      right: 245px;
+   }
+}
+
+.intro-descr {
+   position: absolute;
+   top: 144px;
+   right: 0px;
+   width: 377px;
+   height: 504px;
+   background-color: #30124E;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   &::before {
+      content: '';
+      width: calc(100% + 64px);
+      height: 100%;
+      background-color: #30124E;
+      position: absolute;
+      top: -36px;
+      left: -64px;
+      z-index: -1;
+   }
+
+   &__text {
+      max-width: 255px;
+      margin: 0 auto;
+      font-family: 'NoticiaText';
+      font-size: 22.5px;
+      line-height: 40px;
+      color: #FCFCFC;
+      position: relative;
+
+      &::before,
+      &::after {
+         content: url('./assets/images/intro-quotes.png');
+			position: absolute;
+         top: -100px;
+			left: 30%;
+      }
+		&::after{
+			top: auto;
+			bottom: -100px;
+			transform: rotate(180deg);
+		}
+   }
+}

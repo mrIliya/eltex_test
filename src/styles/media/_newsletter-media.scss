@@ -1,0 +1,25 @@
+@media (max-width: 500px) {
+   .newsletter {
+      padding: 50px 0;
+
+      &__title {
+         font-size: 38px;
+      }
+
+      &__form {
+         display: block;
+      }
+
+      &__input {
+         display: block;
+         margin-bottom: 30px;
+         border: 1px solid #454645;
+      }
+
+      &__btn {
+         margin: 0 auto;
+         background: linear-gradient(180deg, rgba(242, 242, 242, 1) 0%, rgba(255, 255, 255, 1) 100%);
+      }
+
+   }
+}
